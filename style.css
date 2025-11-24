@@ -1,0 +1,32 @@
+body {
+    background: #1c1c1c;
+    color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+canvas {
+    background: #2c2c2c;
+    border: 5px solid #fff;
+    image-rendering: pixelated;
+}
+
+.info {
+    margin: 10px;
+    opacity: 0.75;
+}
+
+#status {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
